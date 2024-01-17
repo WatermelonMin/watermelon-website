@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 15 e&f</title>
+
+    <style>
+
+      .container{
+        position: relative;
+        display: inline-block;
+      }
+
+      .clothes-image{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+      }
+
+      .offer{
+        background-color: black;
+        color: white;
+        position: absolute;
+        top: 5px;
+        right: 50px;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .container2{
+        position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+      }
+    </style>
+  </head>
+
+  <body style="height: 3000px;">
+    <div class="container">
+      <img class="clothes-image" src="picture/clothes.webp">
+      <div class="offer">20% OFF</div>
+      <div class="container2">
+        <button class="cart-button">Add to Cart</button>
+      </div>
+    </div>
+  </body>
+</html>

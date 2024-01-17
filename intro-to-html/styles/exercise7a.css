@@ -1,0 +1,73 @@
+.bar1{
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  border-width: 1px;
+  margin-right: 20px;
+  border-color: rgb(170, 170, 170);
+  border-style: solid;
+}
+
+.bar2{
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+  border-width: 1px;
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.4);
+  border-color: rgb(170, 170, 170);
+  border-style: solid;
+}
+
+.link1{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5px;
+}
+
+.link2{
+  width: 350px;
+}
+
+.link3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.link4{
+  background-color: rgb(77, 129, 224);
+  color: white;
+  border: none;
+  text-align: center;
+  width: 400px;
+  height: 50px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.tweet1{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.tweet2{
+  width: 400px;
+  height: 30px;
+  border: none;
+  vertical-align: middle;
+  font-size: 30px;
+}
+
+.tweet3{
+  background-color: rgb(128, 183, 228);
+  color: white;
+  border: none;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 20px;
+}

@@ -1,0 +1,107 @@
+.box1{
+  margin-left: 10px;
+  box-shadow: 0 5px 6px rgba(0 0 0 0.3);
+  width: 700px;
+  border-radius: 10px;
+}
+.tweet1{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.tweet2{
+  width: 400px;
+  height: 30px;
+  border: none;
+  vertical-align: middle;
+  font-size: 30px;
+}
+
+.tweet3{
+background-color: rgb(128, 183, 228);
+color: white;
+border: none;
+width: 80px;
+height: 40px;
+cursor: pointer;
+border-radius: 20px;
+font-size: 20px;
+}
+
+.box2{
+width: 200px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+margin-right: 10px;
+display: inline-block;
+}
+
+.pic1{
+width: 200px;
+height: 200px;
+object-fit:cover ;
+object-position: center;
+margin-bottom: 10px;
+}
+
+.name{
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+margin-left: 10px;
+}
+
+.desc{
+margin-left: 10px;
+}
+
+.button1{
+background-color: rgb(36, 90, 238);
+margin-left: 10px;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+border: none;
+width: 90px;
+height: 25px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+
+.text4{
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  width: 500px;
+  border-radius: 30px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.pic2{
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.google-page{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.google-button{
+  background-color: rgb(245, 245, 245);
+  border: none;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

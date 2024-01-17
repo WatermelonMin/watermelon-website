@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 14f</title>
+
+    <style>
+      .profile-picture{
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 60px;
+        padding-bottom: 8px;
+      }
+
+      .first_col{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 5px;
+        bottom: 0;
+        left: 5px;
+        background-color: rgba(20, 20, 20, 0.911);
+        width: 70px;
+        padding-top: 15px;
+        padding-left: 10px;
+      }
+
+      .second_col{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        left: 80px;
+        top: 5px;
+        bottom: 0;
+        width: 150px;
+        padding-top: 15px;
+        padding-left: 10px;
+        background-color: rgb(78, 74, 74);
+      }
+
+      p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+      }
+
+      .header{
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        padding-right: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+      }
+    </style>
+  </head>
+
+  <body style="height: 3000px;">
+
+    <div class="first_col">
+      <img class="profile-picture" src="picture/cat.webp">
+      <img class="profile-picture" src="picture/dog.jpg">
+      <img class="profile-picture" src="picture/fish.jpg">
+    </div>
+
+
+    <div class="second_col">
+      <div class="header">
+        <div>INFO</div>
+        <div>+</div>
+      </div>
+
+      <div class="content_bar">
+        <p class="content"># new-videos</p>
+        <p class="content"># updates</p>
+        <p class="content"># faq</p>
+      </div>
+    </div>
+  </body>
+</html>

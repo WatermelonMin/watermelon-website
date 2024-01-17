@@ -1,0 +1,82 @@
+.subscribe-button{
+  background-color: rgb(204, 0, 0);
+  color: white;
+  /* color: text-color */
+  border: none;
+  border-radius: 2px;
+  /* border radius is to have rounded corner */
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* margin for SPACING outside the box*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: opacity 0.15s;
+  /* transition, we choose to smoothly transition the opacity in 0.15s */
+  vertical-align: top; 
+  /* To align by top instead by words */
+}
+
+.subscribe-button:hover{
+  /* everything in here will only appear when we point at the button */
+  opacity: 0.8;
+  /* the smaller the value, the lighter the colour, no changes for value 1*/
+}
+
+.subscribe-button:active{
+  /* appear when we cilck on the button */
+  opacity: 0.5;
+}
+
+.join-button{
+  background-color: white;
+  color: rgb(6, 95, 212);
+  border-color: rgb(6, 95, 212);
+  border-style: solid;
+  /* solid is to let the whole border having the same color */
+  border-width: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+  /* if the content in button is too long, use padding instead of height & width */
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  transition: background-color 0.15s, color 0.15s;
+  /* must not put in :hover, it will only appear when hover and disappear
+  when you click or other activity */
+}
+
+.join-button:hover{
+  background-color: rgb(6,95,212);
+  color: white;
+}
+
+.join-button:active{
+  opacity: 0.5;
+}
+
+.tweet-button{
+  background-color: rgb(29, 155,240);
+  color: white;
+  border: none;
+  border-radius: 18px;
+  font-weight: bold;
+  /* font-weight to bold the text */
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.tweet-button:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+  /* box-shadow (px to right, px to down, blur, color) */
+}
